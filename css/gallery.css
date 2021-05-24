@@ -1,0 +1,73 @@
+@charset "UTF-8";
+.content-items{
+  width:100%;
+  display:flex;
+  flex-wrap:wrap;
+  align-content: flex-start;
+}
+.sample1 {
+	width:			30%;
+	overflow:		hidden;
+	position:		relative;	/* 相対位置指定 */
+  margin:0 1vw;
+}
+.sample1 img{
+  width:100%;
+}
+.caption h4{
+  padding-top:10%;
+  font-size:1.5em;
+}
+.caption p{
+  width:90%;
+  margin:0 auto;
+  padding-top:20%;
+  font-size:1em;
+}
+.caption a{
+  color:white;
+  padding:1vh 2vh;
+  font-size:1vw;
+  border:2px solid white;
+  position:absolute;
+  top:75%;
+  left:40%;
+}
+.caption a:hover{
+  background:#d9333f;
+  border:2px solid #d9333f;
+}
+.sample1 .caption {
+	font-size:		130%;
+	text-align: 		center;
+	color:			#fff;
+}
+.sample1 .mask {
+	width:			100%;
+	height:			100%;
+	position:		absolute;	/* 絶対位置指定 */
+	top:			0;
+	left:			0;
+	opacity:		0;	/* マスクを表示しない */
+	background-color:	rgba(0,0,0,0.4);	/* マスクは半透明 */
+	-webkit-transition:	all 0.2s ease;
+	transition:		all 0.2s ease;
+}
+.sample1:hover .mask {
+	opacity:		1;	/* マスクを表示する */
+}
+@media screen and (max-width:1020px){
+  .sample1{
+    width:45%;
+  }
+}
+@media screen and (max-width:767px){
+  .sample1{
+    margin:0 auto;
+    margin-bottom:10px;
+    width:100%;
+  }
+  .caption a{
+    font-size:3vh;
+  }
+}

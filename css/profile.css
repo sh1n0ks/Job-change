@@ -1,0 +1,33 @@
+@charset "UTF-8";
+.content{
+  display:flex;
+  width:90%;
+  margin:0 auto;
+  margin-bottom:50px;
+}
+.pfcontent{
+  margin-top:20px;
+  width:33%;
+}
+.pfcontent h1{
+  font-size:30px;
+  margin-bottom:30px;
+  font-family: 'Noto Serif JP', serif;
+}
+.pfcontent p{
+  margin-top:20px;
+}
+/* レスポンシブ */
+@media screen and (max-width:767px){
+  .content{
+    display:block;
+  }
+  .pfcontent{
+    width:100%;
+    margin-top:20px;
+    font-size:3em;
+  }
+  .pfcontent p{
+    font-size:15px;
+  }
+}

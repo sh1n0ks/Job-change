@@ -1,0 +1,48 @@
+@charset "UTF-8";
+.contact h1{
+  font-size:40px;
+  margin-left:60px;
+  font-family: 'Noto Serif JP', serif;
+}
+.contact p{
+  font-size:25px;
+  margin-left:170px;
+  margin-top:20px;
+}
+.mailAdless{
+  margin-top:100px;
+}
+.mailAdless a{
+  color:black;
+  border-bottom:1px solid black;
+}
+.mailAdless a:hover{
+  color:#d9333f;
+  border-bottom:1px solid #d9333f;
+}
+.instagrm{
+  margin-top:50px;
+  margin-bottom:100px;
+}
+.instagrm a{
+  color:black;
+  border-bottom:1px solid black;
+}
+.instagrm a:hover{
+  color:#d9333f;
+  border-bottom:1px solid #d9333f;
+}
+/* レスポンシブ */
+@media screen and (max-width:768px){
+  .contact h1{
+    font-size:30px;
+    margin:0;
+    text-align:center;
+  }
+  .contact p{
+    font-size:20px;
+    margin:0;
+    text-align:center;
+    margin-top:10px;
+  }
+}
