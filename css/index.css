@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+.content-wrapper{
+  width:100%;
+}
+/* top */
+.top{
+  width:80%;
+  height:80vh;
+  margin:0 auto;
+  text-align:center;
+  margin-bottom:25vh;
+}
+.top h1{
+  font-size:8vw;
+  line-height:1.5;
+  padding:15vh 0;
+  font-family:'Quicksand',sans-serif;
+  user-select:none;
+}
+.top a{
+  font-size:2.5vw;
+  font-family:'Quicksand',sans-serif;
+  color:black;
+  background-color:white;
+  border:2px solid black;
+  display:inline-block;
+  padding:10px 20px;
+  padding-bottom:14px;
+  border-radius:20px;
+  transition:color 0.3s ease 0s;
+  user-select:none;
+}
+.top a:hover{
+  color:white;
+  background-color:black;
+}
+/* topここまで */
+
+/* nav */
+.nav{
+  width:80%;
+  height:5vh;
+  margin-bottom:20vh;
+}
+.nav ul{
+  display:flex;
+}
+.nav li{
+  font-size:50px;
+  padding:0 30px;
+  border-left:2px solid black;
+  font-family:'Quicksand',sans-serif;
+}
+.nav li:first-child{
+  border-left:none;
+}
+.nav a{
+  color:black;
+  transition:color  0.2s ease 0s;
+}
+.nav a:hover{
+  color:#d9333f;
+}
+/* navここまで */
+/* message */
+.message{
+  width:80%;
+  margin:0 auto;
+  margin-bottom:25vh;
+}
+.message p{
+  font-size:1.7rem;
+  line-height:1.6;
+font-family: 'Quicksand', sans-serif;  display:block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+/* messageここまで */
+/* footer */
+footer{
+  width:80%;
+  margin:0 auto;
+  text-align:center;
+}
+.icon{
+  font-size:5vw;
+  padding:1vh;
+  margin:0 10px;
+  border:3px solid black;
+  border-radius:50%;
+  transition:color 0.2s;
+  color:black;
+}
+.inst {
+  font-size:5.2vw;
+}
+.inst:hover{
+  color:white;
+  border:3px solid black;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#383fe5+0,4f37d7+9,5833ce+12,652fc3+15,702bba+19,742cb6+20,89279e+24,8f279a+25,992391+27,a0258d+29,b12975+33,b82b6f+35,be2c6b+35,c63168+38,d13857+41,d63d52+43,e0404a+45,e04048+45,e24348+46,e4473e+49,ec5135+54,ee5b30+60,f15a2d+62,f26b33+70,f06b30+71,f16f31+72,f18231+77,f59038+82,f29838+85,f29e3c+87,f2a53b+90,f2b244+95,f5b947+100 */
+  background: rgb(56,63,229); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(56,63,229,1) 0%, rgba(79,55,215,1) 9%, rgba(88,51,206,1) 12%, rgba(101,47,195,1) 15%, rgba(112,43,186,1) 19%, rgba(116,44,182,1) 20%, rgba(137,39,158,1) 24%, rgba(143,39,154,1) 25%, rgba(153,35,145,1) 27%, rgba(160,37,141,1) 29%, rgba(177,41,117,1) 33%, rgba(184,43,111,1) 35%, rgba(190,44,107,1) 35%, rgba(198,49,104,1) 38%, rgba(209,56,87,1) 41%, rgba(214,61,82,1) 43%, rgba(224,64,74,1) 45%, rgba(224,64,72,1) 45%, rgba(226,67,72,1) 46%, rgba(228,71,62,1) 49%, rgba(236,81,53,1) 54%, rgba(238,91,48,1) 60%, rgba(241,90,45,1) 62%, rgba(242,107,51,1) 70%, rgba(240,107,48,1) 71%, rgba(241,111,49,1) 72%, rgba(241,130,49,1) 77%, rgba(245,144,56,1) 82%, rgba(242,152,56,1) 85%, rgba(242,158,60,1) 87%, rgba(242,165,59,1) 90%, rgba(242,178,68,1) 95%, rgba(245,185,71,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(56,63,229,1) 0%,rgba(79,55,215,1) 9%,rgba(88,51,206,1) 12%,rgba(101,47,195,1) 15%,rgba(112,43,186,1) 19%,rgba(116,44,182,1) 20%,rgba(137,39,158,1) 24%,rgba(143,39,154,1) 25%,rgba(153,35,145,1) 27%,rgba(160,37,141,1) 29%,rgba(177,41,117,1) 33%,rgba(184,43,111,1) 35%,rgba(190,44,107,1) 35%,rgba(198,49,104,1) 38%,rgba(209,56,87,1) 41%,rgba(214,61,82,1) 43%,rgba(224,64,74,1) 45%,rgba(224,64,72,1) 45%,rgba(226,67,72,1) 46%,rgba(228,71,62,1) 49%,rgba(236,81,53,1) 54%,rgba(238,91,48,1) 60%,rgba(241,90,45,1) 62%,rgba(242,107,51,1) 70%,rgba(240,107,48,1) 71%,rgba(241,111,49,1) 72%,rgba(241,130,49,1) 77%,rgba(245,144,56,1) 82%,rgba(242,152,56,1) 85%,rgba(242,158,60,1) 87%,rgba(242,165,59,1) 90%,rgba(242,178,68,1) 95%,rgba(245,185,71,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(56,63,229,1) 0%,rgba(79,55,215,1) 9%,rgba(88,51,206,1) 12%,rgba(101,47,195,1) 15%,rgba(112,43,186,1) 19%,rgba(116,44,182,1) 20%,rgba(137,39,158,1) 24%,rgba(143,39,154,1) 25%,rgba(153,35,145,1) 27%,rgba(160,37,141,1) 29%,rgba(177,41,117,1) 33%,rgba(184,43,111,1) 35%,rgba(190,44,107,1) 35%,rgba(198,49,104,1) 38%,rgba(209,56,87,1) 41%,rgba(214,61,82,1) 43%,rgba(224,64,74,1) 45%,rgba(224,64,72,1) 45%,rgba(226,67,72,1) 46%,rgba(228,71,62,1) 49%,rgba(236,81,53,1) 54%,rgba(238,91,48,1) 60%,rgba(241,90,45,1) 62%,rgba(242,107,51,1) 70%,rgba(240,107,48,1) 71%,rgba(241,111,49,1) 72%,rgba(241,130,49,1) 77%,rgba(245,144,56,1) 82%,rgba(242,152,56,1) 85%,rgba(242,158,60,1) 87%,rgba(242,165,59,1) 90%,rgba(242,178,68,1) 95%,rgba(245,185,71,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#383fe5', endColorstr='#f5b947',GradientType=0 ); /* IE6-9 */
+}
+.mail:hover{
+  color:white;
+  boder:3px solid black;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
+background: rgb(30,87,153); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(41,137,216,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
+.copyright{
+  padding:20px 0;
+}
+
+/* レスポンシブ */
+@media screen and (max-width:1020px){
+  .top{
+    width:80%;
+    margin:15vh auto;
+  }
+  .top a{
+    font-size:3vw;
+  }
+  .nav li{
+    font-size:40px;
+  }
+  .message p{
+    font-size:1.3rem;
+  }
+}
+@media screen and (max-width:767px){
+  .top{
+    width:80%;
+    margin:15vh auto;
+  }
+  .nav{
+    margin-bottom:10vh;
+  }
+  .top h1{
+    font-size:15vw;
+  }
+  .top a{
+    font-size:5vw;
+  }
+  .nav li{
+    font-size:25px;
+    padding:0 10px;
+  }
+  .message p{
+    font-size:1.1rem;
+  }
+  .icon{
+    border:2px solid black;
+  }
+
+}
