@@ -12,10 +12,11 @@
 .pfcontent h1{
   font-size:30px;
   margin-bottom:30px;
-  font-family: 'Noto Serif JP', serif;
+  font-family:'Quicksand',sans-serif;
 }
 .pfcontent p{
   margin-top:20px;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 /* レスポンシブ */
 @media screen and (max-width:767px){

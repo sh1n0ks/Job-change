@@ -38,11 +38,13 @@
     font-size:30px;
     margin:0;
     text-align:center;
+    font-family:'Quicksand',sans-serif;
   }
   .contact p{
     font-size:20px;
     margin:0;
     text-align:center;
     margin-top:10px;
+    font-family: 'Noto Sans JP', sans-serif;
   }
 }

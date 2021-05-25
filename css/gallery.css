@@ -17,12 +17,14 @@
 .caption h4{
   padding-top:10%;
   font-size:1.5em;
+  font-family:'Quicksand',sans-serif;
 }
 .caption p{
   width:90%;
   margin:0 auto;
   padding-top:20%;
   font-size:1em;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 .caption a{
   color:white;
@@ -32,6 +34,7 @@
   position:absolute;
   top:75%;
   left:40%;
+  font-family:'Quicksand',sans-serif;
 }
 .caption a:hover{
   background:#d9333f;
