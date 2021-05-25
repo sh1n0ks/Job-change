@@ -102,7 +102,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 @media (max-width:1020px){
   .navi{
     width:80%;
-    padding-left:7vw;
     }
   .navi a{
     font-size:5vw;
@@ -123,6 +122,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
   .title h1{
     font-size:8vh;
     margin:10vh 0;
+  }
+  .icon{
+    border:2px solid #444;
   }
 }
 
