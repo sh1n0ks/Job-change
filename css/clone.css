@@ -33,6 +33,40 @@
 .navi a:hover{
   color:#d9333f;
 }
+/* smafo */
+.menu-smafo{
+  display:none;
+}
+#input{
+  display:none;
+}
+.fa-bars{
+  font-size:12vw;
+  padding:5vw;
+  color:#444;
+}
+.menu-content{
+  width:100%;
+  transform:translateX(-100%);
+}
+#input:checked ~ .menu-content{
+  transform:translateX(0);
+}
+.navi-sf ul{
+  width:80%;
+  margin:0 auto;
+}
+.navi-sf li{
+  margin-bottom:3vh;
+}
+.navi-sf{
+  text-align:center;
+}
+.navi-sf a{
+  color:#444;
+  font-size:6vw;
+  font-family:'Quicksand',sans-serif;
+}
 /* naviここまで */
 
 /* title */
@@ -113,8 +147,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
   }
 }
 @media (max-width:767px){
-  .navi a{
-    font-size:6vh;
+  .menu-smafo{
+    display:block;
+  }
+  .menu-pc{
+    display:none;
   }
   .title{
     margin-top:10vh;
