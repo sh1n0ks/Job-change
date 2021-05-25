@@ -18,6 +18,7 @@
 .navi li{
   padding:0 3vw;
   border-left:2px solid black;
+  font-family:'Quicksand',sans-serif;
 }
 .navi li:first-child{
   border-left:none;
@@ -25,7 +26,7 @@
 .navi a{
   font-size:5vh;
   color:black;
-  font-family: 'Noto Serif JP', serif;
+  font-family:'Quicksand',sans-serif;
   transition:color  0.2s ease 0s;
 }
 .navi a:hover{
@@ -41,7 +42,7 @@
 .title h1{
   font-size:8vh;
   text-align:right;
-  font-family: 'Noto Serif JP', serif;
+  font-family:'Quicksand',sans-serif;
 }
 /* titleここまで */
 
@@ -59,13 +60,16 @@ footer{
   text-align:center;
 }
 .icon{
-  color:black;
-  font-size:50px;
-  padding:10px;
+  font-size:5vw;
+  padding:1vh;
   margin:0 10px;
   border:3px solid black;
   border-radius:50%;
   transition:color 0.2s;
+  color:black;
+}
+.inst {
+  font-size:5.2vw;
 }
 .inst:hover{
   color:white;
