@@ -40,31 +40,45 @@
 #input{
   display:none;
 }
+.three-bar{
+  background:#444;
+  width:100%;
+  height:7vh;
+  text-align:right;
+}
 .fa-bars{
-  font-size:12vw;
-  padding:5vw;
-  color:#444;
+  font-size:200%;
+  padding:3vw;
+  color:#fff;
 }
 .menu-content{
   width:100%;
-  transform:translateX(-100%);
+  transform:translateY(-200%);
+  transition:0.5s;
+}
+.header-cover{
+  width:100%;
+  transform:translateY(-200%);
+  transition:0.5s;
 }
 #input:checked ~ .menu-content{
-  transform:translateX(0);
+  transform:translateY(0);
 }
 .navi-sf ul{
-  width:80%;
-  margin:0 auto;
+  width:100%;
+  padding:3vh 0;
+  background-color:#444;
 }
 .navi-sf li{
-  margin-bottom:3vh;
+  margin:3vh 0;
+  margin-bottom:10vh;
 }
 .navi-sf{
   text-align:center;
 }
 .navi-sf a{
-  color:#444;
-  font-size:6vw;
+  color:#fff;
+  font-size:10vw;
   font-family:'Quicksand',sans-serif;
 }
 /* naviここまで */
@@ -154,7 +168,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
     display:none;
   }
   .title{
-    margin-top:10vh;
+    margin-top:-55vh;
   }
   .title h1{
     font-size:8vh;
