@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 .content-wrapper{
   width:100%;
 }
@@ -75,7 +74,7 @@
 }
 .navi-sf{
   text-align:center;
-}
+  }
 .navi-sf a{
   color:#fff;
   font-size:10vw;
