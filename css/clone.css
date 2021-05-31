@@ -54,6 +54,8 @@
   width:100%;
   transform:translateY(-200%);
   transition:0.5s;
+  position:relative;
+  z-index:2;
 }
 .header-cover{
   width:100%;

@@ -9,7 +9,6 @@
 	width:			30%;
 	overflow:		hidden;
 	position:		relative;	/* 相対位置指定 */
-  z-index:-1;
   margin:1vw;
 }
 .sample1 img{
