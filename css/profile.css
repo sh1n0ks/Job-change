@@ -19,6 +19,9 @@
   margin-top:20px;
   font-family: 'Noto Sans JP', sans-serif;
 }
+.comment p{
+  line-height:2em;
+}
 /* レスポンシブ */
 @media screen and (max-width:767px){
   .content{
