@@ -10,6 +10,7 @@
 	overflow:		hidden;
 	position:		relative;	/* 相対位置指定 */
   margin:1vw;
+  box-shadow:10px 10px 10px #444;
 }
 .sample1 img{
   width:100%;

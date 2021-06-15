@@ -6,9 +6,11 @@ $('#pushBtn').on('click', function(){
 });
 
 // ロード時アニメーション
-$('head').append(
-'<style>body{display:none;}'
-);
-$(window).on("load", function() {
-$('body').delay(600).fadeIn("300");
-});
+
+$(".line").animate({"width":"100%"},1500,function(){
+  $(".line").css("right",0)
+  $(".line").animate({"width":"0%"},function(){
+    $(".up").animate({"height":"0%"},1000);
+    $(".down").animate({"height":"0%"},1000);
+  });
+})
