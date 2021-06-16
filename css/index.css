@@ -16,6 +16,7 @@
   height:50%;
   background-color:#000;
   position:fixed;
+  top:0;
 }
 .down{
   width:100%;
