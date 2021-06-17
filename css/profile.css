@@ -25,26 +25,26 @@
 /* 追加 */
 .bar-wrapper{
   width:100%;
-  padding-top:0.7vh;
-  padding-left:0.7vw;
+  padding-top:0.8vh;
+  padding-left:0.8vw;
 }
 .bar-item{
-  height:7px;
-  width:55px;
+  height:5px;
+  width:50px;
   background-color:#fff;
   border-radius:25px;
   margin-bottom:10px;
   transition:all 0.5s ease;
 }
 .show-animate .bar1{
-  transform:translateY(17px) rotate(-45deg);
+  transform:translateY(15px) rotate(-45deg);
 }
 .show-animate .bar2{
   opacity:0;
   transform:translateY(50%);
 }
 .show-animate .bar3{
-  transform:translateY(-17px) rotate(45deg);
+  transform:translateY(-15px) rotate(45deg);
 }
 /* レスポンシブ */
 @media screen and (max-width:767px){
