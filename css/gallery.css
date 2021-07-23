@@ -53,7 +53,7 @@
 	top:			0;
 	left:			0;
 	opacity:		0;	/* マスクを表示しない */
-	background-color:	rgba(0,0,0,0.4);	/* マスクは半透明 */
+	background-color:	rgba(0,0,0,0.6);	/* マスクは半透明 */
 	-webkit-transition:	all 0.2s ease;
 	transition:		all 0.2s ease;
 }
@@ -96,6 +96,6 @@
     width:100%;
   }
   .caption a{
-    font-size:3vh;
+    font-size:3em;
   }
 }
